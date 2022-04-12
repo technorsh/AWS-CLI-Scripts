@@ -2,7 +2,7 @@
 
 # Requirements :-
     # Run :-
-    #    aws configure ( to specific region where you want to your ssm parameter to be copied from )
+    #    aws configure ( to specific region where you want to cloud watch logs to be copied from )
     #
     # Get all CloudWatch log Groups in JSON :-
     #
