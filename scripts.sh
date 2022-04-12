@@ -4,20 +4,20 @@
     # Run :-
     #    aws configure ( to specific region where you want to your ssm parameter to be copied from )
     #
-    # Get all value of SSM Parameter in JSON :-
+    # Get all CloudWatch log Groups in JSON :-
     #
     # Run :- 
-    #       aws ssm get-parameters-by-path --path / --with-decryption > <JSON File name>
+    #       aws logs describe-log-groups > <JSON File name>
     #
-# Install :- 
+# Install Dependencies:- 
 #   1) Pandas ( pip3 install pandas )
 #   2) touch <CSV File name>
 
 echo '---- Configure AWS ---- \n'
 aws configure
-echo '---- Getting SSM Parameter from AWS ---- \n'
-aws ssm get-parameters-by-path --path / --with-decryption > ssm.json
-echo '\n\n---- SSM Parameter Saved to ssm.json file ---- \n'
+echo '---- Getting CloudWatch log groups from AWS ---- \n'
+aws logs describe-log-groups > lg.json
+echo '\n\n---- CloudWatch Log Group Saved to lg.json file ---- \n'
 echo '\n---- Installing Pandas Library ---- \n'
 pip3 install pandas
 echo '\n---- Installed Succesfully---- \n'
