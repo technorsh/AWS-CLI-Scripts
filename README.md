@@ -5,6 +5,6 @@
 Run the provided python file & scripts to get all the data from your AWS account of specific region to CSV File. 
 
 ### SSM
-  - [SSM Parameter](https://github.com/technorsh/AWS-CLI-Scripts/tree/main/AWS_GetAllSSMParameters_toCSVFile)
+  - [SSM Parameter](https://github.com/technorsh/AWS-CLI-Scripts/tree/AWS_GetAllSSMParameters_toCSVFile)
 ### CloudWatch
-  - [CloudWatch Log Group](https://github.com/technorsh/AWS-CLI-Scripts/tree/main/AWS_CloudWatchLogGroup_toCSVFile)
+  - [CloudWatch Log Group](https://github.com/technorsh/AWS-CLI-Scripts/tree/AWS_CloudWatchLogGroup_toCSVFile)
