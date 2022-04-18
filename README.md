@@ -1,10 +1,9 @@
 # AWS-CLI Scripts
 
-### AWS Get Data to CSV File Format 
+### AWS S3 Get Bucket Name & Region to CSV File Format 
 
-Run the provided python file & scripts to get all the data from your AWS account of specific region to CSV File. 
+Run the provided script to get all the S3 bucket name with region, in different csv files (region wise)
 
-### SSM
-  - [SSM Parameter](https://github.com/technorsh/AWS-CLI-Scripts/tree/AWS_GetAllSSMParameters_toCSVFile)
-### CloudWatch
-  - [CloudWatch Log Group](https://github.com/technorsh/AWS-CLI-Scripts/tree/AWS_CloudWatchLogGroup_toCSVFile)
+```
+chmod +x main.sh
+sh ./main.sh
