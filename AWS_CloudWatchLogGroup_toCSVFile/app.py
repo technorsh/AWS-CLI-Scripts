@@ -1,8 +1,9 @@
-import pandas as pd
 import sys
 import subprocess
 
 subprocess.call(["./scripts.sh",sys.argv[1]])
+
+import pandas as pd
 
 df = pd.read_json("lg.json")
 logGroups = df["logGroups"]
