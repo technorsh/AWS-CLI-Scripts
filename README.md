@@ -1,9 +1,9 @@
 # AWS-CLI Scripts
 
-### AWS S3 Get Bucket Name & Region to CSV File Format 
+### AWS Bulk SSM Parameter creation from CSV File Format 
 
-Run the provided script to get all the S3 bucket name with region, in different csv files (region wise)
+Run the provided script to create bulk SSM Parameter from csv file.
 
 ```
 chmod +x main.sh
-sh ./main.sh
+sh ./main.sh <CSV File>
